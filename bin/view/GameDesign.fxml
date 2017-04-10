@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Pane fx:id="paneFXid" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <ImageView fx:id="imageView" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="counter" layoutX="590.0" layoutY="35.0" prefHeight="63.0" prefWidth="110.0" text="60" textAlignment="CENTER">
+               <font>
+                  <Font size="60.0" />
+               </font></Label>
+            <Label fx:id="score1" layoutX="235.0" layoutY="125.0" text="0">
+               <font>
+                  <Font size="60.0" />
+               </font></Label>
+            <Label fx:id="scoreValue1" layoutX="310.0" layoutY="200.0" text="Player 1">
+               <font>
+                  <Font size="60.0" />
+               </font></Label>
+            <Label fx:id="score2" layoutX="800.0" layoutY="125.0" text="0">
+               <font>
+                  <Font size="60.0" />
+               </font></Label>
+            <Label fx:id="scoreValue2" layoutX="875.0" layoutY="200.0" text="Player 2">
+               <font>
+                  <Font size="60.0" />
+               </font></Label>
+            <Label fx:id="pauseLabel" layoutX="510.0" layoutY="105.0" text="">
+               <font>
+                  <Font size="40.0" />
+               </font></Label>
+         </children></Pane>
+   </children>
+</AnchorPane>
